@@ -1,6 +1,8 @@
 .block-product-detail .container-product {
   display: flex;
   margin-top: 40px;
+  padding-bottom: 54px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.2);
 }
 
 .product-images {
@@ -250,9 +252,8 @@
 }
 
 .ship-product {
-    margin-top: 24px;
+  margin-top: 24px;
 }
-
 
 .ship-product .ship-status {
   display: flex;
@@ -262,15 +263,15 @@
   margin-left: 14px;
 }
 
-.ship-product .ship-status .status .box{
-    display: flex;
+.ship-product .ship-status .status .box {
+  display: flex;
 }
 
 .ship-product .ship-status .status .box img {
   margin-right: 10px;
 }
 
-.ship-product .ship-status .status .sub-box p{
+.ship-product .ship-status .status .sub-box p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -281,13 +282,61 @@
 }
 
 .ship-price {
-    margin-left: 110px;
+  margin-left: 110px;
+}
+
+.ship-price .center-dot {
+  margin: 10px 20px;
 }
 
 .ship-price .ship-address .box1 {
-    display: flex;
+  display: flex;
+  margin-bottom: 6px;
+  align-items: center;
+}
+
+.ship-price .ship-address .box1 .truck1 {
+  margin-right: 10px;
 }
 
 .ship-price .ship-address .box2 {
-    display: flex;
+  display: flex;
+}
+
+.ship-price .ship-address .box2 .head {
+  margin-left: 34px;
+  color: #999999;
+}
+
+.container-big-chonk-description {
+  margin-bottom: 100px;
+}
+
+.container-big-chonk-description .menu-header {
+  margin-bottom: 30px;
+}
+
+.container-big-chonk-description .menu-header .list-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.container-big-chonk-description .menu-header .list-menu .item-menu {
+  margin-right: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  color: #999999;
+}
+
+.container-big-chonk-description .menu-header .list-menu .item-menu:hover {
+  color: #000000;
+  border-top: 2px solid #42ba7c;
+}
+
+.container-big-chonk-description .content {
+  width: 770px;
+  margin: auto;
 }
