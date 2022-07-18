@@ -1,0 +1,293 @@
+.block-product-detail .container-product {
+  display: flex;
+  margin-top: 40px;
+}
+
+.product-images {
+  margin-right: 60px;
+}
+
+.product-img-big {
+  width: 540px;
+  height: 676px;
+  border: 1px solid rgba(153, 153, 153, 0.2);
+  margin-bottom: 24px;
+}
+
+.product-img-big img {
+  padding: 86px 58px;
+}
+
+.small-carousel-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img {
+  width: 100px;
+  height: 125px;
+  border: 1px solid rgba(153, 153, 153, 0.2);
+  padding: 15px 10px;
+}
+
+.small-img img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.product-content {
+  margin-top: 40px;
+}
+
+.product-content .product-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 30px;
+}
+
+.product-content .rate-product {
+  display: flex;
+}
+
+.product-content .rate-product .img-rate {
+  padding-right: 12px;
+}
+
+.product-content .rate-product .review-num {
+  padding-right: 30px;
+}
+
+.price-product {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 26px;
+}
+
+.price-product .price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 24px;
+  color: #42ba7c;
+  margin-right: 30px;
+}
+
+.price-product .discout {
+  padding: 3px 12px;
+  background: #42ba7c;
+  color: white;
+}
+
+.product-sub {
+  margin-bottom: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.product-description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 35px;
+}
+
+.product-type {
+  margin-bottom: 24px;
+}
+
+.product-type .size {
+  display: flex;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.size p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  margin-right: 33px;
+}
+
+.size .box-type .item-type {
+  padding: 9px 28px;
+  border: 1px solid rgba(153, 153, 153, 0.2);
+}
+
+.size .box-type .item-type:hover {
+  color: white;
+  background: #42ba7c;
+}
+
+.product-type .color {
+  display: flex;
+  align-items: center;
+}
+
+.color p {
+  margin-right: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.color .color-type button {
+  background: transparent;
+}
+
+.dot-green {
+  height: 16px;
+  width: 16px;
+  background-color: #42ba7c;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+}
+
+.dot-white {
+  height: 16px;
+  width: 16px;
+  background-color: #ffff;
+  border-radius: 50%;
+  display: block;
+  border: 1px solid;
+  margin-right: 10px;
+}
+
+.dot-red {
+  height: 16px;
+  width: 16px;
+  background-color: #d83b3b;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+}
+
+.dot-yellow {
+  height: 16px;
+  width: 16px;
+  background-color: #ffdb1d;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+}
+
+.add-product-to-cart {
+  display: flex;
+  padding-bottom: 42px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+}
+
+.add-product-to-cart .add-number {
+  display: flex;
+}
+
+.add-number {
+  margin-right: 8px;
+}
+
+.add-number button {
+  width: 44px;
+  height: 44px;
+}
+
+.add-number div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 44px;
+}
+
+.add-to-cart .box-text {
+  margin-right: 8px;
+  padding: 12px 24px;
+  color: #42ba7c;
+  border: 1px solid #42ba7c;
+}
+
+.add-product-to-cart .add-to-cart .box-text {
+  display: flex;
+}
+
+.add-product-to-cart .add-to-cart .box-text img {
+  margin-right: 12px;
+}
+
+.add-product-to-cart .buy-now {
+  display: flex;
+  padding: 11px 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #42ba7c;
+  border: 1px solid #42ba7c;
+}
+
+.add-product-to-cart .buy-now:hover {
+  color: white;
+  background: #42ba7c;
+}
+
+.add-product-to-cart .add-to-cart .box-text:hover {
+  color: white;
+  background: #42ba7c;
+}
+
+.ship-product {
+    margin-top: 24px;
+}
+
+
+.ship-product .ship-status {
+  display: flex;
+}
+
+.ship-product .ship-status .status {
+  margin-left: 14px;
+}
+
+.ship-product .ship-status .status .box{
+    display: flex;
+}
+
+.ship-product .ship-status .status .box img {
+  margin-right: 10px;
+}
+
+.ship-product .ship-status .status .sub-box p{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+  margin-top: 6px;
+}
+
+.ship-price {
+    margin-left: 110px;
+}
+
+.ship-price .ship-address .box1 {
+    display: flex;
+}
+
+.ship-price .ship-address .box2 {
+    display: flex;
+}
