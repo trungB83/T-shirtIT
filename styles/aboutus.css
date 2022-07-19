@@ -1,0 +1,86 @@
+.box-aboutus {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.sub-background {
+    position: absolute;
+    top: 3%;
+    left: 63%;
+}
+
+.box-aboutus .big-logo {
+  margin-right: 30px;
+}
+
+.box-aboutus .big-logo img {
+  padding: 45px;
+}
+
+.box-aboutus .content h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.box-aboutus .content .main-content {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  height: 120px;
+  width: 470px;
+}
+
+.box-aboutus .content .info-shop h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+
+.list-item {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.list-item .mini-icon {
+    margin-right: 13px;
+}
+
+
+.box-confirm {
+    display: flex;
+    background: #42BA7C;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    justify-content: space-between;
+}
+
+.box-confirm .item-confirm {
+    padding: 62px;
+}
+
+.box-confirm .item-confirm img {
+    margin-bottom: 28px;
+}
+
+.box-confirm .item-confirm p {
+    width: 250px;
+    height: 70px;
+}
