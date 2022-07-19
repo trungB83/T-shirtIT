@@ -1,0 +1,133 @@
+.head-table {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.container-cart .main-table {
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row .input-box {
+  width: 48%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  
+  margin-top: 25px;
+}
+
+.row .input-box p {
+    margin-bottom: 6px;
+}
+
+.input-box .little-box {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.input-box .little-box img {
+    margin-left: 10px;
+}
+
+.row .input-full-box p{
+    margin-bottom: 6px;
+    color: #555555;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.row .input-full-box {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.row .input-full-box .text-box-full {
+    height: 44px;
+    width: 100%;
+     border: 1px solid rgba(153, 153, 153, 0.2);
+}
+
+.row .input-box .text-box-haft {
+    height: 44px;
+    width: 100%;
+    border: 1px solid rgba(153, 153, 153, 0.2);
+}
+
+.row .input-full-box {
+  width: 100%;
+}
+
+.select-box-haft {
+    height: 44px;
+    width: 100%;
+     border: 1px solid rgba(153, 153, 153, 0.2);;
+}
+
+input[type="checkbox"] {
+    margin-top: 25px;
+    margin-right: 9px;
+}
+
+.main-table .type-shipping {
+    margin-top: 25px;
+}
+
+.main-table .type-shipping h5 {
+    margin-bottom: 16px;
+}
+
+.main-product-chose {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin:22px 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+}
+
+.product-title {
+    margin-bottom: 26px;
+}
+
+.product {
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product .box-image {
+    width: 50px;
+    height: 60px;
+    border: 1px solid rgba(153, 153, 153, 0.2);
+    padding: 6px 4px;
+    background: white;
+}
+
+.product .box-image img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.product .product-name h5 {
+    width: 123px;
+    height: 36px;
+}
