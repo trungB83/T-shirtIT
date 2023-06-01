@@ -1,0 +1,283 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Github t-shirt",
+      "price": 499.0,
+      "image": "./uploads/image 2.png",
+      "variants": [
+        {
+          "color": [
+            { "id": "1", "color": "Red" },
+            { "id": "2", "color": "white" },
+            { "id": "3", "color": "black" },
+            { "id": "4", "color": "green" }
+          ],
+          "size": [
+            { "L": "L" },
+            { "XL": "XL" },
+            { "XXL": "XXL" },
+            { "XXXL": "XXXL" }
+          ]
+        }
+      ],
+      "product_cate": 1
+    },
+    {
+      "id": 2,
+      "name": "Black google t-shirt",
+      "price": 499.0,
+      "image": "./uploads/image 5.png",
+      "variants": [
+        {
+          "color": [
+            { "id": "1", "color": "Red" },
+            { "id": "2", "color": "white" },
+            { "id": "3", "color": "black" },
+            { "id": "4", "color": "green" }
+          ],
+          "size": [
+            { "L": "L" },
+            { "XL": "XL" },
+            { "XXL": "XXL" },
+            { "XXXL": "XXXL" }
+          ]
+        }
+      ],
+      "product_cate": 1
+    },
+    {
+      "id": 3,
+      "name": "You are css to my life",
+      "price": 499.0,
+      "image": "./uploads/image 3.png",
+      "variants": [
+        {
+          "color": [
+            { "id": "1", "color": "Red" },
+            { "id": "2", "color": "white" },
+            { "id": "3", "color": "black" },
+            { "id": "4", "color": "green" }
+          ],
+          "size": [
+            { "L": "L" },
+            { "XL": "XL" },
+            { "XXL": "XXL" },
+            { "XXXL": "XXXL" }
+          ]
+        }
+      ],
+      "product_cate": 1
+    },
+    {
+      "id": 4,
+      "name": "Pascal t-shirt",
+      "price": 499.0,
+      "image": "./uploads/image 13.png",
+      "variants": [
+        {
+          "color": [
+            { "id": "1", "color": "Red" },
+            { "id": "2", "color": "white" },
+            { "id": "3", "color": "black" },
+            { "id": "4", "color": "green" }
+          ],
+          "size": [
+            { "L": "L" },
+            { "XL": "XL" },
+            { "XXL": "XXL" },
+            { "XXXL": "XXXL" }
+          ]
+        }
+      ],
+      "product_cate": 1
+    },
+    {
+      "id": 5,
+      "name": "Typescript t-shirt",
+      "price": 499.0,
+      "image": "./uploads/image 13.png",
+      "variants": [
+        {
+          "color": [
+            { "id": "1", "color": "Red" },
+            { "id": "2", "color": "white" },
+            { "id": "3", "color": "black" },
+            { "id": "4", "color": "green" }
+          ],
+          "size": [
+            { "L": "L" },
+            { "XL": "XL" },
+            { "XXL": "XXL" },
+            { "XXXL": "XXXL" }
+          ]
+        }
+      ],
+      "product_cate": 1
+    },
+    {
+      "id": 6,
+      "name": "Gitlab t-shirt",
+      "price": 499.0,
+      "image": "./uploads/image 2.png",
+      "variants": [
+        {
+          "color": [
+            { "id": "1", "color": "Red" },
+            { "id": "2", "color": "white" },
+            { "id": "3", "color": "black" },
+            { "id": "4", "color": "green" }
+          ],
+          "size": [
+            { "L": "L" },
+            { "XL": "XL" },
+            { "XXL": "XXL" },
+            { "XXXL": "XXXL" }
+          ]
+        }
+      ],
+      "product_cate": 1
+    }
+  ],
+  "product-comments": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "name": "Yvonne Knight",
+      "job": "Developer",
+      "content": "Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!",
+      "image": "./uploads/Ellipse 8.png"
+    },
+    {
+      "id": 2,
+      "name": "Henry Richardson",
+      "job": "Tester",
+      "content": "  Really easy to use and customize. easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!",
+      "image": "./uploads/Ellipse 8 (1).png"
+    },
+    {
+      "id": 3,
+      "name": "Zeng Wen",
+      "job": "Designer",
+      "content": "Really pleasing to look at! Documentation (including installation instructions) are clear and that is coming from arelatively new WordPress user.",
+      "image": "./uploads/Ellipse 8 (2).png"
+    }
+  ],
+  "product_cate": [
+    {
+      "id": 1,
+      "name": "PHP",
+      "description": null,
+      "group": [
+        {
+          "id": "1",
+          "group": "Frameworks"
+        },
+        {
+          "id": "2",
+          "group": "Programming language"
+        },
+        {
+          "id": "3",
+          "group": "Javscript framework"
+        },
+        {
+          "id": "4",
+          "group": "front-end"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Java",
+      "description": null,
+      "group": [
+        {
+          "id": "1",
+          "group": "Frameworks"
+        },
+        {
+          "id": "2",
+          "group": "Programming language"
+        },
+        {
+          "id": "3",
+          "group": "Javscript framework"
+        },
+        {
+          "id": "4",
+          "group": "front-end"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "C #",
+      "description": null,
+      "group": [
+        {
+          "id": "1",
+          "group": "Frameworks"
+        },
+        {
+          "id": "2",
+          "group": "Programming language"
+        },
+        {
+          "id": "3",
+          "group": "Javscript framework"
+        },
+        {
+          "id": "4",
+          "group": "front-end"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "TypeScript",
+      "description": null,
+      "group": [
+        {
+          "id": "1",
+          "group": "Frameworks"
+        },
+        {
+          "id": "2",
+          "group": "Programming language"
+        },
+        {
+          "id": "3",
+          "group": "Javscript framework"
+        },
+        {
+          "id": "4",
+          "group": "front-end"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nodejs",
+      "description": null,
+      "group": [
+        {
+          "id": "1",
+          "group": "Frameworks"
+        },
+        {
+          "id": "2",
+          "group": "Programming language"
+        },
+        {
+          "id": "3",
+          "group": "Javscript framework"
+        },
+        {
+          "id": "4",
+          "group": "front-end"
+        }
+      ]
+    }
+  ]
+}

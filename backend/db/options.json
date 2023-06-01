@@ -1,0 +1,36 @@
+{
+  "variants": [
+    {
+      "color": [
+        { "id": "1", "color": "Red" },
+        { "id": "2", "color": "white" },
+        { "id": "3", "color": "black" },
+        { "id": "4", "color": "green" }
+      ],
+      "size": [
+        { "id": "1", "sile": "L" },
+        { "id": "2", "sile": "XL" },
+        { "id": "3", "sile": "XXL" },
+        { "id": "4", "sile": "XXXL" }
+      ]
+    }
+  ],
+  "group": [
+    {
+      "id": "1",
+      "group": "Frameworks"
+    },
+    {
+      "id": "2",
+      "group": "Programming language"
+    },
+    {
+      "id": "3",
+      "group": "Javscript framework"
+    },
+    {
+      "id": "4",
+      "group": "front-end"
+    }
+  ]
+}
